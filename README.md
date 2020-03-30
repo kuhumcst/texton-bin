@@ -25,3 +25,7 @@ cd Bracmat/java-JNI/
 ./compileAndTestJNI.sh
 ```
 
+## cstlemma
+Copy `https://github.com/kuhumcst/cstlemma/blob/master/doc/makecstlemma.bash` to your disk and run it.
+Copy `cstlemma/cstlemma` to `/opt/texton/bin/`.
+
