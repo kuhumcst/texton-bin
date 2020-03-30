@@ -40,6 +40,14 @@ Follow the instructions in `README.md`. Copy jsoncat to `/opt/texton/bin/`.
 
 Follow the build instructions. Copy the executable fil `lapos` to `/opt/texton/bin`.
 
+## repver
+```bash
+$> wget https://raw.githubusercontent.com/kuhumcst/repetitiveness-checker/master/doc/makerepver.bash
+$> chmod u+g makerepver.bash
+$> ./makerepver.bash
+$> cp repetitiveness-checker/repver /opt/texton/bin/
+```
+
 ## rtfreader
 Copy https://github.com/kuhumcst/rtfreader/blob/master/doc/makertfreader.bash to your disk and run it.
 Copy `rtfreader/rtfreader` to `/opt/texton/bin`.
