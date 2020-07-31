@@ -3,7 +3,7 @@ Binary executable files used by services in the Text Tonsorium.
 
 These binary executable files are built from source in other GitHub repos.
 
-In this readme, we assuma that the `bin` directory is `/opt/texton/bin`.
+In this readme, we assume that the `bin` directory is `/opt/texton/bin`.
 
 ## bracmat, bracmat.jar and libbracmat.so.1.0
 ```bash
@@ -38,7 +38,7 @@ Follow the instructions in `README.md`. Copy jsoncat to `/opt/texton/bin/`.
 ## lapos
 `$> git clone https://github.com/cltk/lapos.git`
 
-Follow the build instructions. Copy the executable fil `lapos` to `/opt/texton/bin`.
+Follow the build instructions. Copy the executable file `lapos` to `/opt/texton/bin`.
 
 ## repver
 ```bash
