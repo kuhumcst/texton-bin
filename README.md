@@ -62,3 +62,9 @@ $> sudo cp rtfreader/rtfreader /opt/texton/bin/
 ## taggerXML
 Copy https://github.com/kuhumcst/taggerXML/blob/master/doc/maketaggerXML.bash to your disk and run it.
 Copy `taggerXML/taggerXML` to `/opt/texton/bin`.
+```bash
+$> wget https://raw.githubusercontent.com/kuhumcst/taggerXML/master/doc/maketaggerXML.bash
+$> sudo chmod ugo+x maketaggerXML.bash
+$> ./maketaggerXML.bash
+$> sudo cp taggerXML/taggerXML /opt/texton/bin/
+```
