@@ -25,6 +25,9 @@ $> cd Bracmat/java-JNI/
 $> ./compileAndTestJNI.sh
 ```
 
+This script creates the symbolicv links /usr/lib/libbracmat.so and /usr/lib/libbracmat.so.1 and creates the share object /usr/lib/libbracmat.so.1.0.
+The script also creates bracmat.jar and attempts to copy it to Tomcat's "lib" folder. This is because bracmat runs as a JNI, its functions being called from the DK-CLARIN java code. 
+
 ## cstlemma
 Copy https://github.com/kuhumcst/cstlemma/blob/master/doc/makecstlemma.bash to your disk and run it.
 Copy `cstlemma/cstlemma` to `/opt/texton/bin/`.
