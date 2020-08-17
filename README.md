@@ -14,7 +14,7 @@ $> git clone https://github.com/BartJongejan/Bracmat.git
 ```bash
 $> cd Bracmat/src/
 $> make
-$> cp bracmat /opt/texton/bin/
+$> sudo cp bracmat /opt/texton/bin/
 ```
 
 ### bracmat.jar and libbracmat.so.1.0
