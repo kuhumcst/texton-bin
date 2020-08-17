@@ -48,7 +48,7 @@ Follow the build instructions. Copy the executable file `lapos` to `/opt/texton/
 $> wget https://raw.githubusercontent.com/kuhumcst/repetitiveness-checker/master/doc/makerepver.bash
 $> chmod ugo+x makerepver.bash
 $> ./makerepver.bash
-$> cp repetitiveness-checker/repver /opt/texton/bin/
+$> sudo cp repetitiveness-checker/repver /opt/texton/bin/
 ```
 
 ## rtfreader
