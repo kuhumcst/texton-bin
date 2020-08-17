@@ -52,8 +52,12 @@ $> sudo cp repetitiveness-checker/repver /opt/texton/bin/
 ```
 
 ## rtfreader
-Copy https://github.com/kuhumcst/rtfreader/blob/master/doc/makertfreader.bash to your disk and run it.
-Copy `rtfreader/rtfreader` to `/opt/texton/bin`.
+```bash
+$> wget https://raw.githubusercontent.com/kuhumcst/rtfreader/master/doc/makertfreader.bash
+$> sudo chmod ugo+x makertfreader.bash
+$> ./makerepver.bash
+$> sudo cp rtfreader/rtfreader /opt/texton/bin/
+```
 
 ## taggerXML
 Copy https://github.com/kuhumcst/taggerXML/blob/master/doc/maketaggerXML.bash to your disk and run it.
