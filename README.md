@@ -29,8 +29,12 @@ This script creates the symbolicv links /usr/lib/libbracmat.so and /usr/lib/libb
 The script also creates bracmat.jar and attempts to copy it to Tomcat's "lib" folder. This is because bracmat runs as a JNI, its functions being called from the DK-CLARIN java code. 
 
 ## cstlemma
-Copy https://github.com/kuhumcst/cstlemma/blob/master/doc/makecstlemma.bash to your disk and run it.
-Copy `cstlemma/cstlemma` to `/opt/texton/bin/`.
+```bash
+$> wget https://raw.githubusercontent.com/kuhumcst/cstlemma/master/doc/makecstlemma.bash
+$> chmod ugo+x cstlemma.bash
+$> ./cstlemma.bash
+$> sudo cp cstlemma/cstlemma /opt/texton/bin/
+```
 
 ## jsoncat
 ```bash
