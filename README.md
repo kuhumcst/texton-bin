@@ -31,8 +31,8 @@ The script also creates bracmat.jar and attempts to copy it to Tomcat's "lib" fo
 ## cstlemma
 ```bash
 $> wget https://raw.githubusercontent.com/kuhumcst/cstlemma/master/doc/makecstlemma.bash
-$> chmod ugo+x cstlemma.bash
-$> ./cstlemma.bash
+$> chmod ugo+x makecstlemma.bash
+$> ./makecstlemma.bash
 $> sudo cp cstlemma/cstlemma /opt/texton/bin/
 ```
 
