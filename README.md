@@ -1,5 +1,12 @@
 # texton-bin
-Binary executable files used by services in the Text Tonsorium.
+Binary files used by services in the Text Tonsorium.
+
+Please make sure that all files in opt\texton\bin are executable
+```bash
+$> cd opt/texton/bin
+$> sudo chmod ugo+x *
+``` 
+From Text Tonsoriums `bin` folder (/opt/texton/bin), you can create symbolic links to the opt/texton/bin in this repository.
 
 These binary executable files are built from source in other GitHub repos.
 
